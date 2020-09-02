@@ -1,0 +1,23 @@
+.offer-container{
+    background:#1d1c1b;
+    text-align: center;
+    padding:10px 0;
+}
+.offer-text{
+    color:#f4f4f4;
+    font-size: 20px;
+    font-family: Montserrat-Regular, sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+.highlight{
+    text-transform: uppercase;
+}
+.highlightbar{
+    text-decoration: underline;
+    font-family: Montserrat-Bold, sans-serif;
+    text-transform: uppercase;
+}
+.highlightbar a{
+    color:#f4f4f4;
+}

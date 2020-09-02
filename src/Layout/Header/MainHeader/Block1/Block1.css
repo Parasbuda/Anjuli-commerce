@@ -1,0 +1,68 @@
+.header-mini {
+    background-color: #333;
+  }
+  .header-mini h4 {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #f4f4f4;
+    margin: 0px;
+  }
+  .header-mini .dropdown-wrapper{
+      display: flex;
+      justify-content: flex-end;
+  }
+  .header-mini .dropdown {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 12px;
+   
+  }
+  .header-mini .dropdown .dropdown-toggle {
+    color: #f4f4f4;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-decoration: none;
+  }
+  
+  .header-mini .dropdown .dropdown-menu {
+    animation: animationmenu ease 0.5s;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 0 0 -28px;
+    padding: 10px 0;
+    border-width: 0;
+    box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.1);
+    right: 0;
+    left: auto;
+  }
+  
+  .header-mini .dropdown .dropdown-item {
+    color: #1d1c1b;
+    padding: 5px 10px;
+  }
+  .header-mini  .dropdown .dropdown-item:hover,
+  .header-mini  .dropdown .dropdown-item:active {
+    background-color: transparent;
+    color: #1d1c1d;
+  }
+  .header-mini .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* animation for dropdown menu */
+  @keyframes animationmenu {
+    from {
+      opacity: 0;
+      transform: translate(0px, 10px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(0px, 0px);
+    }
+  }
+  
