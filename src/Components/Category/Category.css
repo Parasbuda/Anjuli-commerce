@@ -1,0 +1,22 @@
+.card{
+    border:none;
+    box-shadow: 5px 5px 3px rgba(0,0,0,0.1);
+    margin-bottom:20px;
+}
+.card .card-img-top{
+  height:370px;
+  transition: all ease 0.5s;
+}
+.card .card-img-top:hover{
+    transform:scale(0.9);
+}
+.card .card-body{
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+}
+.card .card-body .card-text{
+    font-weight:700;
+    text-transform: uppercase;
+    font-family:Montserrat-Regular, sans-serif;
+}
