@@ -39,7 +39,7 @@ const Services = () => {
                               <i className="fab fa-cc-visa icon"  />
                 <div className="block">
                   <h4 className="title">Payment</h4>
-                  <p>We provide both the online Payment as well as Cash on Delivery.</p>
+                  <p>We provide Online Payment as well as Cash on Delivery.</p>
                 </div>
               </div>
             </div>

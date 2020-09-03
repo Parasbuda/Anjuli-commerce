@@ -1,7 +1,7 @@
 import React from "react"
 import "./MainSlider.css"
 import Slider from "react-slick"
-
+import { Link } from "react-router-dom"
 const MainSlider = () => {
   const settings = {
     slidesToShow: 1,
@@ -46,7 +46,10 @@ const MainSlider = () => {
               <div className="info-center">
                 <h5>Popular</h5>
                 <h2>Trending Gown</h2>
-                <button className="btn btn-secondary mt-3">Shop Now</button>
+
+                <Link to="/" className="btn btn-secondary mt-3">
+                  Shop Now
+                </Link>
               </div>
             </div>
           </div>
@@ -71,7 +74,7 @@ const MainSlider = () => {
           </div>
         </div>
       </div>
-     
+
       <div className="slide item">
         <div className="img-fill">
           <div
@@ -90,8 +93,7 @@ const MainSlider = () => {
             </div>
           </div>
         </div>
-          </div>
-     
+      </div>
     </Slider>
   )
 }
