@@ -28,6 +28,7 @@ nav {
   border-radius: 0;
   padding: 3px 3px 2px 3px;
   text-align: center;
+
 }
 .navbar-collapse ul li .nav-link .badge-secondary::after {
   content: "";
@@ -105,8 +106,6 @@ nav {
  visibility: hidden;
 }
 .product .pro-thumb:hover .pro-buttons{
- 
-  transition: all ease 0.5s;
 visibility: visible;
 }
 
@@ -141,6 +140,7 @@ visibility: visible;
   top: 5px;
   padding: 5px 10px;
   left: 20px;
+  color:#dddddd;
 }
 .pro-description .pro-title a {
   font-size: 18px;
