@@ -106,9 +106,11 @@ const NavbarLink = () => {
                                 <Link to="/">
                                   <span className="pro-image">
                                     <img
-                                      className="img-fluid"
+                                     
                                       src="assets/images/megamenu/dress1.jpeg"
                                       alt="dress1"
+                                      height="380px"
+                                      width="300px"
                                     />
                                   </span>
                                 </Link>
@@ -148,9 +150,12 @@ const NavbarLink = () => {
                                 <Link to="/">
                                   <span className="pro-image">
                                     <img
-                                      className="img-fluid"
+                                    
                                       src="assets/images/megamenu/dress2.jpg"
                                       alt="dress1"
+                                      height="380px"
+                                      width="300px"
+                                    
                                     />
                                   </span>
                                 </Link>
@@ -188,6 +193,18 @@ const NavbarLink = () => {
                   </div>
                 </div>
               </div>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-link">Shop</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-link">Products</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-link">About Us</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/" className="nav-link">Contact</Link>
             </li>
           </ul>
         </div>
