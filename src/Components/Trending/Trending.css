@@ -1,8 +1,24 @@
+.trending .sub-title{
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+}
+.trending .sub-title h6{
+  font-family:  Montserrat-Regular, sans-serif;
+  padding:0;
+  font-weight: 400;
+}
+.trending .sub-title .marked{
+ margin-left:35px;
+ margin-right:35px;
+
+}
 .trending .card {
   border:none;
     box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
-    margin-bottom:20px;
+    margin-bottom:10px;
     height:340px;
+    margin-top:30px;
   transition: all 0.5s ease;
 }
 .trending .card .card-img-top {
@@ -20,10 +36,13 @@
  justify-content: space-between;
 }
 .trending .card .card-body .card-text {
-  padding-top:5px;
-  font-weight: 500;
-  text-transform: uppercase;
+ 
+ 
+ 
   font-family: Montserrat-Regular, sans-serif;
+}
+.trending .card .card-body  .price-discount{
+  text-decoration: line-through;
 }
 .trending .pro-buttons {
   position: absolute;
