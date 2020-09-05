@@ -1,0 +1,110 @@
+.popular .card {
+  border: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  height: 340px;
+  margin-top: 30px;
+  transition: all 0.5s ease;
+}
+.popular .card .card-img-top {
+  height: 300px;
+  transition: all ease 0.5s;
+  position: relative;
+}
+.popular .card:hover .pro-buttons {
+  visibility: visible;
+}
+.popular .card .card-body {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular .card .card-body .card-text {
+  font-family: Montserrat-Regular, sans-serif;
+}
+.popular .card .card-body .price-discount {
+  text-decoration: line-through;
+}
+.popular .pro-buttons {
+  position: absolute;
+  top: 150px;
+  visibility: hidden;
+}
+.popular .pro-icons {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.popular .pro-icons .icon {
+  background-color: #1c1d1c;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.popular .btn-block {
+  width: 200px;
+  margin-left: 5px;
+  margin-top: 15px;
+  border-radius: 0 !important;
+  background-color: #1c1d1c;
+  border: none;
+  padding: 10px 0;
+}
+.product .pro-tag {
+  position: absolute;
+  top: 5px;
+  padding: 5px 10px;
+  left: 20px;
+  color: #dddddd;
+  font-size: 8px;
+}
+.pro-description .pro-title a {
+  font-size: 18px;
+  color: black !important;
+  text-decoration: none !important;
+}
+.pro-description {
+  margin-left: auto;
+  margin-right: auto;
+}
+.popular .pro-tag {
+  position: absolute;
+  top: 5px;
+  padding: 5px 10px;
+  left: 20px;
+  color: #dddddd;
+  border-radius: 10px;
+}
+
+.popular .slick-slide > div {
+  margin: 0 10px;
+  padding: 0;
+  outline: none !important;
+}
+
+
+.popular .slick-list {
+  margin: 0 -10px;
+  padding: 0;
+  outline: none !important;
+ 
+}
+
+
+.popular .slick-prev:before,
+.popular .slick-next:before {
+  color: #1c1d1c;
+}
+.popular .slick-prev:before {
+  margin-left: -15px;
+  font-size: 24px;
+}
+.popular .slick-next:before {
+  margin-left: 15px;
+  font-size: 24px;
+}
