@@ -5,6 +5,7 @@ import Services from "../../Components/Services/Services"
 import Category from "../../Components/Category/Category"
 import Trending from "../../Components/Trending/Trending"
 import Popular from "../../Components/Popular/Popular"
+import MainFooter from "../../Layout/Footer/MainFooter/MainFooter"
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Category />
       <Trending />
       <Popular />
+      <MainFooter/>
     </React.Fragment>
   )
 }
